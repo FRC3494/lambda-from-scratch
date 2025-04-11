@@ -15,7 +15,6 @@ package frc.robot.subsystems.drive;
 
 import com.pathplanner.lib.config.ModuleConfig;
 import com.pathplanner.lib.config.RobotConfig;
-
 import edu.wpi.first.math.geometry.Rotation2d;
 import edu.wpi.first.math.geometry.Translation2d;
 import edu.wpi.first.math.system.plant.DCMotor;
@@ -36,10 +35,10 @@ public class DriveConstants {
       };
 
   // Zeroed rotation values for each module, see setup instructions
-  public static final Rotation2d frontLeftZeroRotation = new Rotation2d(70.0);
-  public static final Rotation2d frontRightZeroRotation = new Rotation2d(150.5);
-  public static final Rotation2d backLeftZeroRotation = new Rotation2d(12.3);
-  public static final Rotation2d backRightZeroRotation = new Rotation2d(224.4);
+  public static final Rotation2d frontLeftZeroRotation = new Rotation2d(0.0);
+  public static final Rotation2d frontRightZeroRotation = new Rotation2d(0.0);
+  public static final Rotation2d backLeftZeroRotation = new Rotation2d(0.0);
+  public static final Rotation2d backRightZeroRotation = new Rotation2d(0.0);
 
   // Device CAN IDs
   public static final int pigeonCanId = 52;
